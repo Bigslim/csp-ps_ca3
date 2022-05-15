@@ -1,7 +1,7 @@
 body {
   font-family: 'Prompt', sans-serif;
-  color: #172b4d;
-  background-color: #0279bf;
+  color: #dbaf00;
+  background-color: #ffcc00;
   display: flex;
   align-items: start;
 }
@@ -17,6 +17,8 @@ div {
 
 .title {
   font-weight: 600;
+  margin: 7px;
+  padding: 10px;
 }
 
 .editable {
@@ -32,7 +34,7 @@ div {
 .editing {
   background: white;
   color: #172b4d !important;
-  box-shadow:inset 0px 0px 0px 2px #0279bf;
+  box-shadow:inset 0px 0px 0px 2px #ffcc00;
 }
 
 .editing:hover {
@@ -40,16 +42,18 @@ div {
 }
 
 .card {
-  background: white;
-  border-bottom: 1px solid #aaa;
+  background: rgba(0,0,0,.12);
+  border-bottom: 1px solid #dbaf00;
+  margin: 7px;
+  padding: 10px;
 }
 
 .list {
-/*   padding: 7px; */
+  padding: 2px;
   min-width: 280px;
   margin: 10px 5px;
   position: relative;
-  background: #dfe1e6;
+  background: #000;
 }
 
 
