@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" >
+<!-- Dynamic functional webapp disabled as instructed -->  
 <head>
   <title><em>CanIsit?</em> Dublin Bus App - Software Project</title>
   <meta charset="UTF-8">
@@ -12,7 +13,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Prompt&display=swap" rel="stylesheet">
-<!-- Interactive webpage where emphasis tagged content cannot be removed in the dynamic mode of the present, final commit removed this funtions. -->
+<!-- In the interactive webpage <em> tagged content that could not be, THIS final commit exclude this funtions. -->
+  <!-- New class "fixcard" has been created in the style.css to fulfill this requirement -->
 <div id="main">
   <div class="list">
     <div class="title">Product Backlog</div>
@@ -22,7 +24,6 @@
       <div class="fixdcard">alternative design - android</div>
       <div class="fixdcard">alternative design - apple</div>
       <div class="fixdcard">alternative design - other</div>
-      <!--<div class="add-card editable">Add another card</div>-->
     </div>
   </div>
   <div class="list">
@@ -31,51 +32,44 @@
       <div class="fixdcard">test user application</div>
       <div class="fixdcard">test driver application</div>
       <div class="fixdcard">PC browser add-on?</div>
-      <!--<div class="add-card editable">Add another card</div>-->
     </div>
   </div>
-<!-- A "to-do" list was inserted since an item on the current sprint backlog may have some dependencies - webapps as Jira or Monday.com allows the user create interdependent tasks. -->
-<!-- Is it know that the the Kanban framerwork relies on its versatility, but keeping the present project flexible to allow any hybrid frameworks is intentional. -->
+<!-- A "to-do" list have been inserted since an item on the current sprint backlog may have some dependencies - webapps like Jira or Monday.com allows the user create interdependent tasks. -->
+  <!-- Is it know that the the Kanban framerwork relies on its versatility and its designed to limit Work in Progress (WIP); keeping the present project with a "Current Sprint Backlog" list AND a "To-do" one is intentional. -->
+    <!-- The former would refer to tasks on the queue, the latter to the ones that should be completed in a period of 2-4 weeks -->
   <div class="list">
     <div class="title">To-do</div>
     <div class="content"></div>
-    <div class="fixdcard"><em>user specific design</em></div>
-    <div class="fixdcard"><em>user interface</em></div>
-    <div class="fixdcard"><em>driver specific design</em></div>
-    <div class="fixdcard"><em>driver interface</em></div>
-    <!--<div class="add-card editable">Add another card</div>-->
-  </div>
+     <div class="fixdcard"><em>user specific design</em></div>
+     <div class="fixdcard"><em>user interface</em></div>
+     <div class="fixdcard"><em>driver specific design</em></div>
+     <div class="fixdcard"><em>driver interface</em></div>
+   </div>
   <div class="list">
     <div class="title">In Progress</div>
     <div class="content"></div>
-    <div class="fixdcard">global design</div>
-    <!--<div class="add-card editable">Add another card</div>-->
+     <div class="fixdcard">global design</div>
   </div>
   <div class="list">
     <div class="title">Review</div>
     <div class="content"></div>
-    <div class="fixdcard"><em>user application</em></div>
-    <div class="fixdcard"><em>driver application</em></div>
-    <!--<div class="add-card editable">Add another card</div>-->
+     <div class="fixdcard"><em>user application</em></div>
+     <div class="fixdcard"><em>driver application</em></div>
   </div>
   <div class="list">
     <div class="title">Done</div>
     <div class="content"></div>
-    <div class="fixdcard"><em>scale system integration</em></div>
-    <!--<div class="add-card editable">Add another card</div>-->
+     <div class="fixdcard"><em>scale system integration</em></div>
   </div>
+<!-- "Additional Resources" for the present would refer to things (perks and bonus) that are not on the project but it should be thought about: rewards for paid services and/or premium user, add-ons for specific clients etc -->
   <div class="list">
     <div class="title">Additional Resources</div>
     <div class="content"></div>
-    <div class="fixdcard">UX perks - android</div>
-    <div class="fixdcard">UX perks - apple</div>
-    <div class="fixdcard">UX perks - Dublin Bus</div>
-    <!--<div class="add-card editable">Add another card</div>-->
+     <div class="fixdcard">UX perks - android</div>
+     <div class="fixdcard">UX perks - apple</div>
+     <div class="fixdcard">UX perks - Dublin Bus</div>
   </div>
 </div>
-<!--<div class="add-list">
-  <div class="title editable">Add another list</div>
-</div>-->
-  <script src='https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js'></script><script  src="./script.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js'></script><script  src="./script.js"></script>
 </body>
 </html>
