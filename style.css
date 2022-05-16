@@ -48,6 +48,13 @@ div {
   padding: 10px;
 }
 
+.fixdcard {
+  background: rgba(0,0,0,.12);
+  border-bottom: 1px solid #dbaf00;
+  margin: 7px;
+  padding: 10px;
+}
+
 .list {
   padding: 2px;
   min-width: 280px;
